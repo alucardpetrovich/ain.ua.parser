@@ -1,0 +1,29 @@
+{
+  "name": "ain.ua.parser",
+  "version": "1.0.0",
+  "description": "server side of ain.ua news app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alucardpetrovich/ain.ua.parser.git"
+  },
+  "keywords": [],
+  "author": "Mikola Levkiv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alucardpetrovich/ain.ua.parser/issues"
+  },
+  "homepage": "https://github.com/alucardpetrovich/ain.ua.parser#readme",
+  "dependencies": {
+    "express": "~4.16.3",
+    "jsdom": "~11.7.0",
+    "mongoose": "~5.0.14",
+    "node-schedule": "~1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "~1.17.3"
+  }
+}
